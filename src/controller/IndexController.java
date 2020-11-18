@@ -12,6 +12,7 @@ public class IndexController implements Controller {
 		mav.addObject("message", "Hello Spring MVC");
 		System.out.println("更新1");
 		System.out.println("创建分支");
+		System.out.println("创建分支2");
 		return mav;
 	}
 }
