@@ -14,6 +14,7 @@ public class IndexController implements Controller {
 		System.out.println("创建分支");
 		System.out.println("创建分支2");
 		System.out.println("在线修改");
+		System.out.println("测试SSH");
 		return mav;
 	}
 }
