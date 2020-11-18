@@ -10,6 +10,7 @@ public class IndexController implements Controller {
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		ModelAndView mav = new ModelAndView("index.jsp");
 		mav.addObject("message", "Hello Spring MVC");
+		System.out.println("更新1");
 		return mav;
 	}
 }
