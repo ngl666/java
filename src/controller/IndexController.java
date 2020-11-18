@@ -11,6 +11,7 @@ public class IndexController implements Controller {
 		ModelAndView mav = new ModelAndView("index.jsp");
 		mav.addObject("message", "Hello Spring MVC");
 		System.out.println("更新1");
+		System.out.println("创建分支");
 		return mav;
 	}
 }
